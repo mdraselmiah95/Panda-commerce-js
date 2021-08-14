@@ -1,0 +1,1 @@
+This a simple responsive website where using some simple JavaScript.

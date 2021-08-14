@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda-commerce-js</title>
+
+    <!----------- 
+        favicon 
+    -------------->
+    <link rel="shortcut icon" href="icons.png" type="image/x-icon">
+
+    <!-- --------------------
+    bootstrap cdn link
+   ------------------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- -------------------------
+        bootstrap icon cdn link
+    -------------------------- -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- -----------------
+        fontawesome cdn 
+    ---------------------->
+    <script src="https://kit.fontawesome.com/d0048e2ab3.js" crossorigin="anonymous"></script>
+
+
+    <!-- --------------------
+         main css link
+   ------------------------>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <!-- ------------------
+            nav section start 
+        ----------------------->
+        <nav class="navbar navbar-expand-lg my-4">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="" width="145" height="25" class="d-inline-block ">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler"><i class="bi bi-list"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex w-50 mx-auto navbar-form-one">
+                        <input class="form-control me-2 rounded-pill py-2" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <i class="bi bi-search me-4"></i>
+                    </form>
+                    <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#categories">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ------------------
+        carousel section start 
+        ----------------------->
+
+        <section class="carousel-section container my-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-section-content carousel-item active">
+                        <div class=" row d-flex align-items-center px-5">
+                            <div class="col-lg-7 p-4">
+                                <h1>Mi LED TV PRO 32</h1>
+                                <p>This is the best LED TV in the world for people who just want to waste time in
+                                    front of funky world. </p>
+                                <h2>$1289</h2>
+                                <div class="">
+                                    <a class="carousel-section-btn  btn btn-outline-warning px-3 py-2">BUY NOW<i
+                                            class="bi bi-arrow-right ms-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 p-5">
+                                <img class="img-fluid d-block" src="./images/banner-images/tv.png" alt="LED TV">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-section-content carousel-item">
+                        <div class=" row d-flex align-items-center px-5">
+                            <div class="col-lg-7 p-4">
+                                <h1>X-Box for Fun</h1>
+                                <p>This is the best Xbox in the world for people who just want to waste time in
+                                    front of funky world. </p>
+                                <h2>$669</h2>
+                                <a class="carousel-section-btn btn px-3 py-2 btn-outline-warning">BUY NOW<i
+                                        class="bi bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-5 p-5">
+                                <img class="img-fluid d-block" src="./images/banner-images/xbox.png" alt="Xbox">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-section-content carousel-item">
+                        <div class=" row d-flex align-items-center px-5">
+                            <div class="col-lg-7 p-4">
+                                <h1>Cool Headphone</h1>
+                                <p>This is the best Headphone in the world for people who just want to waste time in
+                                    front of funky world. </p>
+                                <h2>$449</h2>
+                                <a class="carousel-section-btn btn px-3 py-2 btn-outline-warning">BUY NOW<i
+                                        class="bi bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-5 p-5">
+                                <img class="img-fluid d-block" src="./images/banner-images/headphone.png"
+                                    alt="headphone">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+
+        <!-- --------------------
+          section one Categories
+      -------------------------->
+
+        <section id="categories" class="section-one container p-5">
+            <h2 class="mb-3">Categories</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="section-one-content-one d-flex align-items-center justify-content-around p-3">
+                        <h3>Watch</h3>
+                        <img class="img-fluid" src="./images/categories/watch.png" alt="watch">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="section-one-content-two d-flex align-items-center justify-content-around p-3">
+                        <h3>Bag</h3>
+                        <img class="img-fluid" src="./images/categories/bag.png" alt="Bag">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="section-one-content-three d-flex align-items-center justify-content-around p-3">
+                        <h3>Shoes</h3>
+                        <img class="img-fluid" src="./images/categories/shoes.png" alt="Shoes">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------------------
+          section two Shoes
+      -------------------------->
+
+        <section id="product" class="section-two-container">
+            <div class="section-two-content-one container p-5">
+                <div class="d-flex justify-content-between align-items-center py-3">
+                    <h2>Shoes</h2>
+                    <a href="">See All</a>
+                </div>
+                <div class="section-two-content-two row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="content-card card h-100 align-items-center text-center p-3">
+                            <img class="card-img-top" src="./images/shoes/shoe-1.png" alt="shoes-1">
+                            <div class="card-body">
+                                <h4>Reebok Dart Men’s Shoes</h4>
+                                <p id="change-text">The multipurpose outsole provides grip for quick cuts and lateral
+                                    moves.</p>
+                                <!-- <p id="change-text">
+                                </p> -->
+                                <h5>$1289</h5>
+                            </div>
+                            <div onclick="handleClick()" class="section-two-btn-one btn btn-outline-warning px-4 py-2">
+                                Buy Now <i class="fas fa-long-arrow-alt-right ms-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="content-card card h-100 align-items-center text-center p-3">
+                            <img class="card-img-top" src="./images/shoes/shoe-2.png" alt="shoes-2"
+                                onmouseover="onImg.call(this)" onmouseout="outImg.call(this)">
+                            <div class="card-body">
+                                <h4>Reebok Pump</h4>
+                                <p>Make a statement in these Instapump Fury OG Pride shoes. If the shoes make the
+                                    person, it's time to lace up with Pride.</p>
+                                <h5>$799</h5>
+                            </div>
+                            <div class="">
+                                <div class="section-two-btn-two btn btn-outline-danger px-4 py-2">Buy Now <i
+                                        class="fas fa-long-arrow-alt-right ms-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="content-card card h-100 align-items-center text-center p-3">
+                            <img class="card-img-top" src="./images/shoes/shoe-3.png" alt="shoes-3">
+                            <div class="card-body">
+                                <h4>Reebok All Terrain</h4>
+                                <p> Removable sockliners mean the extra layer of cushioned comfort can join you for the
+                                    awesome ride.</p>
+                                <h5>$699</h5>
+                            </div>
+                            <div class="">
+                                <div class="section-two-btn-three btn btn-outline-info px-4 py-2">Buy Now <i
+                                        class="fas fa-long-arrow-alt-right ms-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------------------
+          section three Backpack
+      -------------------------->
+
+        <section class="section-three-container">
+            <div class="section-three-content-one container p-5">
+                <div class="d-flex justify-content-between align-items-center py-3">
+                    <h2 id="third-title">Backpack</h2>
+                    <a href="">See All</a>
+                </div>
+                <div class="section-three-content-two row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="content-card card h-100 align-items-center text-center p-3">
+                            <img class="card-img-top" src="./images/bags/bag-1.png" alt="bag-1">
+                            <div class="card-body">
+                                <h4>Ison Backpack</h4>
+                                <p>The practical day pack is an ideal companion for urban folk who commute daily to the
+                                    office or university.</p>
+                                <h5>$489</h5>
+                            </div>
+                            <div class="">
+                                <div class="section-three-btn section-three-btn-one btn btn-outline-danger px-4 py-2">
+                                    Buy Now <i class="fas fa-long-arrow-alt-right ms-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="content-card card h-100 align-items-center text-center p-3">
+                            <img class="card-img-top" src="./images/bags/bag-2.png" alt="bag-2">
+                            <div class="card-body">
+                                <h4>Biaowang Backpack</h4>
+                                <p>BIAOWANG Waterproof Design 15.6 Inch 25 L Laptop Backpack for School, College and
+                                    Office with USB Charging Port.</p>
+                                <h5>$599</h5>
+                            </div>
+                            <div class="">
+                                <div class="section-three-btn section-three-btn-two btn btn-outline-info px-4 py-2">Buy
+                                    Now <i class="fas fa-long-arrow-alt-right ms-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="content-card card h-100 align-items-center text-center p-3">
+                            <img class="card-img-top" src="./images/bags/bag-3.png" alt="bag-3">
+                            <div class="card-body">
+                                <h4>Dxyizu WS54 Smart</h4>
+                                <p>Lightweight & Ergonomic Design,The back support system consists of ergonomic sponge
+                                    to release the stress on your shoulder and body.</p>
+                                <h5>$899</h5>
+                            </div>
+                            <div class="">
+                                <div class="section-three-btn section-three-btn-three btn btn-outline-dark px-4 py-2">
+                                    Buy Now <i class="fas fa-long-arrow-alt-right ms-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- --------------------
+          footer section 
+      -------------------------->
+
+    <footer>
+        <section id="contact" class="section-footer-container m-5">
+            <div ondblclick="changeBackground(this);"
+                class="section-footer-content container d-flex justify-content-center align-items-center text-center py-5">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3>LET'S STAY IN TOUCH</h3>
+                        <p>Get updates on sales, specials and more</p>
+                    </div>
+                    <div class="d-flex col-lg-12">
+                        <input class="w-100 ps-4" type="text" name="" id="input-helper" placeholder="Enter Your Email">
+                        <button id="btn-confirm" class="section-footer-btn px-3 py-2 border-0" disabled>Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- -----------------
+         script cnd link 
+     ---------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>

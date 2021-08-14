@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ::placeholder {} */
+
+
+/* ---------------------
+    nav-section start 
+------------------------*/
+
+.navbar-form-one {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-form-one input {
+    border: none;
+    background: #F1F1F1;
+}
+
+.navbar-form-one i {
+    position: absolute;
+}
+
+.navbar-toggler {
+    font-size: 2.25rem;
+}
+
+.navbar-nav li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #707070;
+}
+
+/* ---------------------
+carousel-section start 
+------------------------*/
+
+.carousel-section-content {
+    background-color: #FEEAE9;
+
+}
+
+.carousel-inner {
+    border-radius: 1.3rem
+}
+
+.carousel-section-content h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 5.25rem;
+    color: #1F1F1F;
+    font-family: 'Abril Fatface',
+        cursive;
+}
+
+.carousel-section-content p {
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #4E4E4E;
+}
+
+.carousel-section-content h2 {
+    font-weight: 500;
+    font-size: 2.563rem;
+    line-height: 3.813rem;
+    color: #FF136F;
+}
+
+/* animation button css */
+
+.carousel-section-btn {
+    font-size: 1rem;
+    color: #1F1F1F;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.carousel-section-btn:hover {
+    color: #FFFFFF;
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 7%;
+}
+
+/* ---------------------
+section one Categories
+------------------------*/
+
+.section-one h2 {
+    font-weight: 600;
+    font-size: 2.25rem;
+    letter-spacing: 2px;
+    color: #1F1F1F;
+    font-family: 'Alfa Slab One',
+        cursive;
+}
+
+.section-one-content-one {
+    border-radius: 1rem;
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.section-one-content-two {
+    border-radius: 1rem;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.section-one-content-three {
+    border-radius: 1rem;
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
+
+.section-one-content-one h3,
+.section-one-content-two h3,
+.section-one-content-three h3 {
+    font-weight: 500;
+    font-size: 2.25rem;
+    color: #FFFFFF;
+}
+
+.section-one-content-one img,
+.section-one-content-two img,
+.section-one-content-three img {
+    height: 5.625rem;
+}
+
+/* ---------------------
+    section two Shoes
+------------------------*/
+
+.section-two-container {
+    background-color: #F4F4F4;
+}
+
+.section-two-content-one h2 {
+    font-weight: 600;
+    font-size: 2.25rem;
+    letter-spacing: 2px;
+    color: #1F1F1F;
+    font-family: 'Alfa Slab One',
+        cursive;
+}
+
+.section-two-content-one a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #FF9D00;
+}
+
+.content-card {
+    border-radius: 1rem;
+}
+
+.section-two-content-two h4 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #1F1F1F;
+}
+
+.section-two-content-two p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #4E4E4E;
+}
+
+.section-two-content-two h5 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #000000;
+}
+
+.section-two-btn-one,
+.section-two-btn-two,
+.section-two-btn-three {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4E4E4E;
+    transition: 0.3s ease;
+}
+
+.section-two-btn-one:hover {
+    color: white;
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.section-two-btn-two:hover {
+    color: white;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.section-two-btn-three:hover {
+    color: white;
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
+/* ---------------------
+  section three Backpack
+------------------------*/
+
+.section-three-container {
+    background-color: #F4F4F4;
+}
+
+.section-three-content-one h2 {
+    font-weight: 600;
+    font-size: 2.25rem;
+    letter-spacing: 2px;
+    color: #1F1F1F;
+    font-family: 'Alfa Slab One',
+        cursive;
+}
+
+.section-three-content-one a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #FF9D00;
+}
+
+.section-three-content-two p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #4E4E4E;
+}
+
+.section-three-content-two h5 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #000000;
+}
+
+.section-three-btn-one,
+.section-three-btn-two,
+.section-three-btn-three {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4E4E4E;
+    transition: 0.3s ease;
+}
+
+.section-three-btn-one:hover {
+    color: white;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.section-three-btn-two:hover {
+    color: white;
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
+.section-three-btn-three:hover {
+    color: white;
+    background: linear-gradient(170.41deg, #0a2249 -10.89%, #220c2c 92.77%);
+}
+
+/* all images hover css */
+
+.section-one img,
+.section-two-content-two img,
+.section-three-content-two img {
+    /* transition: transform .5s; */
+    transition: 0.4s ease-in-out;
+
+}
+
+.section-one img:hover,
+.section-two-content-two img:hover,
+.section-three-content-two img:hover {
+    transform: scale(1.1);
+    /* filter: drop-shadow(0 0 0.25rem #666666); */
+    filter: drop-shadow(3px 3px 2px #666666);
+    cursor: pointer;
+}
+
+/* ---------------------
+     footer section 
+------------------------*/
+
+.section-footer-content {
+    background-color: #FFF2F1;
+    border-radius: 1rem;
+}
+
+.section-footer-content h3 {
+    font-family: 'Abril Fatface',
+        cursive;
+    font-weight: 600;
+    font-size: 1.875rem;
+    color: #1F1F1F;
+
+}
+
+.section-footer-content p {
+    font-size: 1rem;
+    color: #707070;
+}
+
+.section-footer-content input {
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+
+.section-footer-btn {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-radius: 0 8px 8px 0;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+}
+
+/* .section-footer-btn:hover {
+    color: #000000;
+} */
+
+/* ---------------------
+       css end
+------------------------*/
