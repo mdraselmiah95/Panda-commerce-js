@@ -50,11 +50,13 @@ document.getElementById('input-helper').addEventListener('keyup', function (even
 //changing image
 
 function onImg() {
-    this.setAttribute('src', '../images/shoes/shoe-1.png');
+    // this.setAttribute('src', './images/shoes/shoe-1.png');
+    document.getElementById('myImg').src = './images/shoes/shoe-1.png';
 }
 
 function outImg() {
-    this.setAttribute('src', '../images/shoes/shoe-2.png');
+    // this.setAttribute('src', './images/shoes/shoe-2.png');
+    document.getElementById('myImg').src = './images/shoes/shoe-2.png';
 }
 
 //double to change background color
@@ -62,3 +64,6 @@ function outImg() {
 function changeBackground(e) {
     e.style.backgroundColor = 'pink';
 }
+
+
+let hight = 30;
